@@ -1,0 +1,82 @@
+
+/* Color schemes */
+.demo-1 {
+
+	--path-fill-1: #4b04ff;
+	--path-fill-2: #320468;
+	--path-fill-3: #2624B2;
+	--path-fill-4: #320468;
+	--path-fill-5: #2624B2;
+}
+
+
+
+.global-menu {
+	width: 100vw;
+	height: 90vh;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	position: fixed;
+	left: 0;
+	pointer-events: none;
+	z-index: 100;
+}
+
+.global-menu__item {
+	color: var(--color-menu);
+	font-family: var(--font-family-menu);
+	font-size: var(--font-size-menu);
+	font-weight: var(--font-weight-menu);
+	opacity: 0;
+	transform: translateY(-100%);
+	pointer-events: none;
+	display: block;
+	margin: 0.25em 0;
+	transition: transform 0.3s, opacity 0.3s;
+	transition-timing-function: ease-in;
+}
+
+
+.global-menu__item:hover {
+	color: var(--color-menu-hover);
+}
+
+.global-menu__item.is-opened {
+	opacity: 1;
+	transform: translateY(0) rotate(0);
+	pointer-events: auto;
+	transition-timing-function: ease;
+}
+
+.shape-overlays {
+	width: 100vw;
+	height: 100vh;
+	pointer-events: none;
+	position: fixed;
+	top: 0;
+	left: 0;
+	z-index: -1;
+}
+
+.shape-overlays.is-opened {
+	pointer-events: auto;
+}
+
+.shape-overlays__path:nth-of-type(1) {
+	fill: var(--path-fill-1);
+}
+
+.shape-overlays__path:nth-of-type(2) {
+	fill: var(--path-fill-2);
+}
+
+.shape-overlays__path:nth-of-type(3) {
+	fill: var(--path-fill-3);
+}
+
+.shape-overlays__path:nth-of-type(4) {
+	fill: var(--path-fill-4);
+}
+
+

@@ -1,0 +1,36 @@
+@font-face {
+    font-family: 'FuturaLight';
+    src: url('../font/FuturaLight.eot');
+    src: url('../font/FuturaLight.woff2') format('woff2'),
+         url('../font/FuturaLight.woff') format('woff'), 
+         url('../font/FuturaLight.ttf') format('truetype'), 
+         url('../font/FuturaLight.svg#FuturaLight') format('svg'), 
+         url('../font/FuturaLight.eot?#iefix') format('embedded-opentype');
+}
+@font-face {
+    font-family: 'FuturaLightBt';
+    src: url('../font/FuturaLightBt.eot');
+    src: url('../font/FuturaLightBt.woff2') format('woff2'),
+         url('../font/FuturaLightBt.woff') format('woff'), 
+         url('../font/FuturaLightBt.ttf') format('truetype'), 
+         url('../font/FuturaLightBt.svg#FuturaLightBt') format('svg'), 
+         url('../font/FuturaLightBt.eot?#iefix') format('embedded-opentype');
+}
+@font-face {
+    font-family: 'futuraMediumBt';
+    src: url('../font/futuraMediumBt.eot');
+    src: url('../font/futuraMediumBt.woff2') format('woff2'),
+         url('../font/futuraMediumBt.woff') format('woff'), 
+         url('../font/futuraMediumBt.ttf') format('truetype'), 
+         url('../font/futuraMediumBt.svg#futuraMediumBt') format('svg'), 
+         url('../font/futuraMediumBt.eot?#iefix') format('embedded-opentype');
+}
+@font-face {
+    font-family: 'futurao';
+    src: url('../font/futurao.eot');
+    src: url('../font/futurao.woff2') format('woff2'),
+         url('../font/futurao.woff') format('woff'), 
+         url('../font/futurao.ttf') format('truetype'), 
+         url('../font/futurao.svg#futurao') format('svg'), 
+         url('../font/futurao.eot?#iefix') format('embedded-opentype');
+}
